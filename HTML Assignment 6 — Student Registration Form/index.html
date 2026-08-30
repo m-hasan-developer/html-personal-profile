@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+
+<style>
+    input{
+        padding: 8px;
+        margin: 5px;
+    }
+</style>
+
+  </head>
+  <body>
+    <div class="div">
+      <form action="profile.html">
+        <div
+          class="personaldetail"
+          style="
+            border: 2px rgb(182, 177, 177) solid;
+            border-radius: 10px;
+            padding: 10px;
+
+          "
+
+
+        >
+          <h1>Personal Detail</h1>
+
+          <label for="Full Name" 
+            >Full Name :
+            <input type="text" placeholder="Enter Your Full Name" style="width: 100%;" required
+            
+            />
+          </label>
+          <br />
+          <label for="Email"
+            >Email :
+            <input type="email" placeholder="Enter Your Email" required
+             style="width: 40%;"
+            />
+          </label>
+
+          <label for="DOB:"
+            >DOB:
+            <input type="date" placeholder="Enter Your DOB" required 
+                         style="width: 40%;"
+
+            />
+          </label>
+
+          <br />
+          <label for="Password"
+            >Password :
+            <input
+              type="password"
+              placeholder="Enter Your Password"
+              required
+              minlength="3"
+              maxlength="12"
+               style="width: 30%;"
+            />
+          </label>
+
+          <label for="Confirm Password"
+            >Confirm Password :
+            <input
+              type="Confirm Password"
+              placeholder="Enter Your Confirm Password"
+              required
+              minlength="3"
+              maxlength="12"
+               style="width: 40%;"
+            />
+          </label>
+
+          <br />
+          <label for="Contact Number"
+            >Contact Number
+            <input
+              type="number"
+              placeholder="Enter Your Contact Number"
+              required
+               style="width: 80%;"
+            />
+          </label>
+          <br />
+        </div>
+
+        <div class="gender">
+          <p>
+            Select Your Gender :
+
+            <label for="Gender">
+              Male
+              <input type="radio" name="Gender" value="Male" checked />
+            </label>
+
+            <label for="Gender">
+              Female
+              <input type="radio" name="Gender" value="Female" />
+            </label>
+          </p>
+        </div>
+
+        <div class="selectcourse">
+          <p>
+            Select Courses :
+
+            <label for="Courses">
+              Html
+              <input type="checkbox" name="Courses" value="Html" checked />
+            </label>
+
+            <label for="Courses">
+              Css
+              <input type="checkbox" name="Courses" value="Css" />
+            </label>
+
+            <label for="Courses">
+              Js
+              <input type="checkbox" name="Courses" value="JS" />
+            </label>
+
+            <label for="Courses">
+              React
+              <input type="checkbox" name="Courses" value="React" />
+            </label>
+          </p>
+        </div>
+
+        <div class="additional">
+          <address>
+            <p>Address</p>
+
+            <textarea name="" id="" placeholder="Enter Your Address"></textarea>
+          </address>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
