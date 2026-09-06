@@ -1,0 +1,128 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.list li {
+  padding: 0px 15px;
+}
+
+.list a {
+  color: #384254;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.list a:hover {
+  color: #000000;
+}
+.main{
+    text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+.main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 74px;
+  color: #212121;
+}
+
+.main h1 span{
+    color: #0B73B7;
+}
+
+.introduction {
+    font-size: 25px;
+    color: #757576;
+} 
+.main h2{
+    font-weight: bold;
+}
+
+.coursesBox{
+   display: flex;
+   justify-content: center; 
+}
+
+.box {
+border: 1px solid gray;
+padding: 30px 20px;
+
+}
+
+
+.main li {
+list-style-type: none;
+line-height: 25px;
+font-weight: bold;
+}
+
+footer{
+    margin: 0;
+    padding: 10px;
+    background-color: #DFF3C1;
+        align-items: center !important;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutImg{
+    width: 50%;
+}
+
+.aboutImg img{
+    width: 90%;
+}
+
+.aboutText{
+    font-size: 40px;
+    width: 45%;
+}
+
+.courseTable{
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+   
+}
+
+.courseTable table td,th{
+    padding: 20px;
+}
+
+.courseTable table,th,td {
+    border: 1px solid gray;
+}
+
+.courseTable table th {
+    background-color: #D3E4F9;
+}
+
+.StuTable{
+      display: flex;
+    justify-content: center;
+    padding: 20px 0; 
+}
+
+.StuTable td{
+    padding: 10px;
+}
