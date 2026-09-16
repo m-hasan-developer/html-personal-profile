@@ -1,0 +1,51 @@
+body{
+    background-color:#EEF7FC ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    color: rgb(5, 5, 85);
+}
+
+.p1{
+   color: rgb(5, 5, 85);
+}
+
+.bookinfo{
+    border: 2px solid rgb(23, 23, 161);
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.para{
+    text-align: center;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftimg img{
+    height: 300px;
+}
+
+.bookinfoCard{
+    border: 2px solid rgb(137, 137, 160);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+text-align: justify;}
+
+.bookinfo p {
+    color: rgb(5, 5, 85);
+}
