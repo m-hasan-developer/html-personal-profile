@@ -1,188 +1,300 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Assignment 4 — Flexbox UI Recreation</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="hContainer">
-        <div class="leftHead">
-          <div class="logoH1">
-            <img src="./HeadLogo.png" alt="HeadLogo" />
 
-            <div class="h1span">
-              <div class="h1Part1">
-                <h2>Flex</h2>
-              </div>
-              <div class="h1Part2">
-                <h2>Shop</h2>
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Assignment 4 — Flexbox UI Recreation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="hContainer">
+      <div class="leftHead">
+        <div class="logoH1">
+          <img src="./HeadLogo.png" alt="HeadLogo" />
+
+          <div class="h1span">
+            <div class="h1Part1">
+              <h2>Flex</h2>
+            </div>
+            <div class="h1Part2">
+              <h2>Shop</h2>
             </div>
           </div>
-
-          <div class="link">
-            <ul>
-              <li>Home</li>
-              <li>Products</li>
-              <li>About</li>
-              <li>Contact</li>
-            </ul>
-          </div>
         </div>
 
-        <div class="rightHead">
-          <div class="searchBox">
-            <img src="searchIcon.png" alt="" />
-            <input type="text" placeholder="Search Products" name="" id="" />
-          </div>
-
-          <div class="rightIcon">
-            <img src="hearticon.png" alt="Fav " />
-            <img src="./shopping_cart.png" alt="" />
-            <img src="./account_circle.png" alt="" />
-          </div>
+        <div class="link">
+          <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>About</li>
+            <li>Contact</li> 
+          </ul>
+           
+          
         </div>
       </div>
-    </header>
 
-<section class="hero">
-  <div class="heroContainer">
+      <div class="rightHead">
+        <div class="searchBox">
+          <img src="searchIcon.png" alt="" />
+          <input type="text" placeholder="Search Products" name="" id="" />
+        </div>
 
-    <!-- left side content -->
-     <div class="hero-content">
-<p class="heroTag">
-  NEW COLLECTION
-</p>
+        <div class="rightIcon">
+          <img src="hearticon.png" alt="Fav " />
+          <img src="./shopping_cart.png" alt="" />
+          <img src="./account_circle.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </header>
 
-<h1 class="heroTitle">
-  Better Products <br>
-for a Brighter Future
-</h1>
+  <section class="hero">
+    <div class="heroContainer">
 
-<p class="heroDes">
-  Discover amazing products that make your <br>
-life easier, simpler and more beautiful.
-</p>
+      <!-- left side content -->
+      <div class="hero-content">
+        <p class="heroTag">
+          NEW COLLECTION
+        </p>
 
-<button class="heroBtn">
-  Shop Now
-</button>
-     </div>
+        <h1 class="heroTitle">
+          Better Products <br>
+          for a Brighter Future
+        </h1>
 
-<!-- right side img -->
+        <p class="heroDes">
+          Discover amazing products that make your <br>
+          life easier, simpler and more beautiful.
+        </p>
 
-<div class="heroImg">
-  <img src="https://images.pexels.com/photos/11398246/pexels-photo-11398246.jpeg"  alt="Head phone">
-</div>
+        <button class="heroBtn">
+          Shop Now
+        </button>
+      </div>
 
+      <!-- right side img -->
+
+      <div class="heroImg">
+        <img src="https://images.pexels.com/photos/11398246/pexels-photo-11398246.jpeg" alt="Head phone">
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="feature">
+
+    <div class="featureContainer">
+
+
+      <div class="feastureBox">
+
+        <img src="./account_circle.png" alt="">
+        <h4>Free Shipping</h4>
+        <p>On all Orders over $50</p>
+
+      </div>
+
+      <div class="feastureBox">
+
+        <img src="./account_circle.png" alt="">
+        <h4>Secure Payments </h4>
+        <p>100% secure payment</p>
+
+      </div>
+
+      <div class="feastureBox">
+
+        <img src="./account_circle.png" alt="">
+        <h4>24/7 Support</h4>
+        <p>We`re here help to </p>
+
+      </div>
+
+      <div class="feastureBox">
+
+        <img src="./account_circle.png" alt="">
+        <h4>Easy Returns</h4>
+        <p>30 days return policy</p>
+
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+
+
+  <section class="product">
+
+    <div class="productConatiner">
+
+      <!-- line 1  -->
+      <div class="productHead">
+
+        <h1>Featured Products</h1>
+        <p>View All </p>
+      </div>
+
+      <!-- linee 2 -->
+
+      <div class="cardContainer">
+
+        <div class="card">
+
+          <div class="cardimgdiv">
+
+            <img src="https://m.media-amazon.com/images/I/91IsBDIF+8L._AC_UY218_.jpg" alt="" class="cardImg">
+
+          </div>
+          <p class="productTitle"> Smart Watch</p>
+          <p class="productPrice">$99.00</p>
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/013/743/771/non_2x/five-stars-rating-icon-png.png"
+            width="70px" alt="" class="starImg">
+          <br>
+          <button class="addToCart_btn"> Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="cardimgdiv">
+
+            <img src="https://m.media-amazon.com/images/I/91IsBDIF+8L._AC_UY218_.jpg" alt="" class="cardImg">
+
+          </div>
+          <p class="productTitle"> Smart Watch</p>
+          <p class="productPrice">$99.00</p>
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/013/743/771/non_2x/five-stars-rating-icon-png.png"
+            width="70px" alt="" class="starImg">
+          <br>
+          <button class="addToCart_btn"> Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="cardimgdiv">
+
+            <img src="https://m.media-amazon.com/images/I/91IsBDIF+8L._AC_UY218_.jpg" alt="" class="cardImg">
+
+          </div>
+          <p class="productTitle"> Smart Watch</p>
+          <p class="productPrice">$99.00</p>
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/013/743/771/non_2x/five-stars-rating-icon-png.png"
+            width="70px" alt="" class="starImg">
+          <br>
+          <button class="addToCart_btn"> Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="cardimgdiv">
+
+            <img src="https://m.media-amazon.com/images/I/91IsBDIF+8L._AC_UY218_.jpg" alt="" class="cardImg">
+
+          </div>
+          <p class="productTitle"> Smart Watch</p>
+          <p class="productPrice">$99.00</p>
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/013/743/771/non_2x/five-stars-rating-icon-png.png"
+            width="70px" alt="" class="starImg">
+          <br>
+          <button class="addToCart_btn"> Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+<footer>
+
+  <div class="footerConatiner">
+
+<div class="footerdivOne">
+
+  <div>
+    <div class="logoH1">
+          <img src="./HeadLogo.png" alt="HeadLogo" />
+
+          <div class="h1span">
+            <div class="h1Part1">
+              <h2 style="color: white">Flex</h2>
+            </div>
+            <div class="h1Part2">
+              <h2 style="color: white">Shop</h2>
+            </div>
+          </div>
+        </div>
+
+<p class="footeroneP">Your one-stop shop for modern <br>
+lifestyle products,</p>
   </div>
-</section>
-
-
-<section class="feature">
-
-<div class="featureContainer">
-
-
-<div class="feastureBox">
-
-  <img src="./account_circle.png" alt="">
-  <h4>Free Shipping</h4>
-  <p>On all Orders over $50</p>
-
-</div>
-
-<div class="feastureBox">
-
-  <img src="./account_circle.png" alt="">
-  <h4>Secure Payments </h4>
-  <p>100% secure payment</p>
-
-</div>
-
-<div class="feastureBox">
-
-  <img src="./account_circle.png" alt="">
-  <h4>24/7 Support</h4>
-  <p>We`re here help to </p>
-
-</div>
-
-<div class="feastureBox">
-
-  <img src="./account_circle.png" alt="">
-  <h4>Easy Returns</h4>
-  <p>30 days return policy</p>
+    
 
 </div>
 
 
 
+<div class="footerdivTwo">
+<p class="bold">Quick Link</p>
+
+
+<p>Home</p>
+<p>Products</p>
+<p>About</p>
+<p>Contact</p>
+
+
+
+</div>
+<div class="footerdivThree">
+
+  <p class="bold">Help</p>
+
+
+<p>FAQ</p>
+<p>Shipping</p>
+<p>Returns</p>
+<p>Support</p>
+
+
+
+</div>
+<div class="footerdiv4">
+
+<p class="bold boldpara">Follow Us</p>
+
+<div class="iconImg">
+  <img src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" height="28" width="28"  alt="">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png?utm_source=ny.wikipedia.org&utm_campaign=index&utm_content=original" height="28" width="28"  alt="">
+  <img src="https://static.vecteezy.com/system/resources/previews/016/716/467/non_2x/twitter-icon-free-png.png" height="28" width="28"  alt="">
+  <img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" height="28" width="28"  alt="">
 </div>
 
 
-</section>
-
-
-<section class="product">
-
-<div class="productConatiner">
-
-<!-- line 1  -->
-<div class="productHead">
-
-  <h1>Featured Products</h1>
-  <p>View All </p>
-</div>
-
-<!-- linee 2 -->
-
-<div class="cardContainer">
-
-  <div class="card">
-    <img src="https://m.media-amazon.com/images/I/719bhXz4vvL._AC_UL320_.jpg" alt="" class="cardImg">
-    <p class="productTitle"> Smart Watch</p>
-    <p class="productPrice">$99.00</p>
-    <img src="https://static.vecteezy.com/system/resources/previews/013/743/771/non_2x/five-stars-rating-icon-png.png" width="70px" alt="" class="starImg">
-    <br>
-    <button class="addToCart_btn"> Add to Cart</button>
-  </div>
-
-   <div class="card">
-    <img src="https://m.media-amazon.com/images/I/719bhXz4vvL._AC_UL320_.jpg" alt="" class="cardImg">
-    <p class="productTitle"> Smart Watch</p>
-    <p class="productPrice">$99.00</p>
-    <img src="https://static.vecteezy.com/system/resources/previews/013/743/771/non_2x/five-stars-rating-icon-png.png" width="70px" alt="" class="starImg">
-    <br>
-    <button class="addToCart_btn"> Add to Cart</button>
-  </div>
-
-   <div class="card">
-    <img src="https://m.media-amazon.com/images/I/719bhXz4vvL._AC_UL320_.jpg" alt="" class="cardImg">
-    <p class="productTitle"> Smart Watch</p>
-    <p class="productPrice">$99.00</p>
-    <img src="https://static.vecteezy.com/system/resources/previews/013/743/771/non_2x/five-stars-rating-icon-png.png" width="70px" alt="" class="starImg">
-    <br>
-    <button class="addToCart_btn"> Add to Cart</button>
-  </div>
-
-   <div class="card">
-    <img src="https://m.media-amazon.com/images/I/719bhXz4vvL._AC_UL320_.jpg" alt="" class="cardImg">
-    <p class="productTitle"> Smart Watch</p>
-    <p class="productPrice">$99.00</p>
-    <img src="https://static.vecteezy.com/system/resources/previews/013/743/771/non_2x/five-stars-rating-icon-png.png" width="70px" alt="" class="starImg">
-    <br>
-    <button class="addToCart_btn"> Add to Cart</button>
-  </div>
-</div>
 
 </div>
 
-</section>
+
+</div>
+<hr>
+
+<p style="color: white; font-weight: bold; text-align: center; padding-bottom: 20px;">2026 FlexShop. All rights reserved.</p>
 
 
-  </body>
+
+
+
+</footer>
+
+
+
+</body>
+
 </html>
