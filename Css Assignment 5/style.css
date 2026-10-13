@@ -1,0 +1,141 @@
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+/* ===== Header ===== */
+header {
+    background: radial-gradient(#fff, #ffd6d6);
+    padding: 0 25px 50px 25px;    
+}
+
+/* ===== Navbar ===== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 50px;
+}
+
+/* Logo */
+.logo img {
+    width: 120px;
+}
+
+/* Right Side  */
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Nav Links */
+.link {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.link a:hover {
+    color: #ff523b;
+}
+
+/* Bag Icon */
+.bi-bag {
+    font-size: 27px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.bi-bag:hover {
+    color: #ff523b;
+}
+
+/* ===== Hero Section ===== */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+/* Left Column */
+.col-1 {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.col-1 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: #333;
+}
+
+.col-1 p {
+    color: #555;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+/* Explore Now Button */
+.nowBtn {
+    display: inline-block;
+    background-color: #ff523b;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.nowBtn:hover {
+    background-color: #563434;
+}
+
+/* Right Column Img */
+.col-2 {
+    width: 50%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.col-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    margin: 70px 0;
+    padding: 0 25px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 div {
+    width: 250px;
+}
+
+.box1 div img{
+    width: 100%;
+}
